@@ -25,7 +25,7 @@ const PastTripsSection = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="py-20 sm:py-28">
+    <section id="trips" ref={sectionRef} className="py-20 sm:py-28">
       <div className="container">
         <h2
           className={`text-3xl sm:text-4xl font-heading font-bold uppercase tracking-tight mb-8 transition-all duration-700 ${
