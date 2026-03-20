@@ -15,7 +15,7 @@ const AboutSection = () => {
   }, []);
 
   return (
-    <section ref={ref} className="py-20 sm:py-28 bg-card">
+    <section id="about" ref={ref} className="py-20 sm:py-28 bg-card">
       <div className="container">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Image */}

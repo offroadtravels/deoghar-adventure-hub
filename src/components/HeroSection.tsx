@@ -3,7 +3,7 @@ import heroPortrait from "@/assets/hero-portrait.jpeg";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Blurred background layer */}
       <div
         className="absolute inset-0 z-0 scale-110"
