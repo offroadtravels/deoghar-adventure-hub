@@ -48,7 +48,7 @@ const HeroSection = () => {
           href="YOUR_GOOGLE_FORM_LINK"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block bg-accent text-accent-foreground font-heading font-bold text-lg uppercase tracking-wide px-10 py-4 rounded-lg shadow-lg shadow-accent/25 hover:scale-[1.03] active:scale-[0.97] transition-transform duration-200 opacity-0 animate-fade-up"
+          className="inline-block bg-accent text-accent-foreground font-heading font-bold text-lg uppercase tracking-wide px-10 py-4 rounded-lg shadow-lg shadow-accent/30 hover:scale-[1.05] hover:shadow-xl hover:shadow-accent/40 hover:brightness-110 active:scale-[0.97] transition-all duration-300 ease-out opacity-0 animate-fade-up ring-2 ring-accent/0 hover:ring-accent/50 ring-offset-2 ring-offset-transparent"
           style={{ animationDelay: "0.55s" }}
         >
           Book Deoghar Ride
